@@ -11,18 +11,17 @@
         .nav { position: absolute; top: 20px; left: 20px; background: rgba(0, 0, 0, 0.7); padding: 10px; border-radius: 5px; }
         .nav a { color: white; text-decoration: none; margin-right: 10px; }
         .button { position: absolute; top: 70px; left: 20px; background: rgba(0, 0, 0, 0.7); color: white; padding: 10px; border-radius: 5px; cursor: pointer; }
-        .button.vr { top: 70px; }
         .button.immersive { top: 110px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <iframe id="panorama" class="iframe" src="https://kuula.co/share/7WLXx/collection/7Y9qx?logo=1&info=1&fs=1&vr=0&autop=10&thumbs=0" allow="xr-spatial-tracking; gyroscope; accelerometer; fullscreen" allowfullscreen></iframe>
+        <iframe id="panorama" class="iframe" src="https://kuula.co/share/7WLc1/collection/7Y9qx?logo=1&info=1&fs=1&vr=0&autop=10&thumbs=0" allow="xr-spatial-tracking; gyroscope; accelerometer; fullscreen" allowfullscreen></iframe>
         <div class="nav">
-            <a href="#" onclick="changePanorama('https://kuula.co/share/7WLXx/collection/7Y9qx?logo=1&info=1&fs=1&vr=0&autop=10&thumbs=0')">Колекція</a>
+            <a href="#" onclick="changePanorama('https://kuula.co/share/7WLc1/collection/7Y9qx?logo=1&info=1&fs=1&vr=0&autop=10&thumbs=0')">Колекція</a>
             <!-- Додайте інші посилання для окремих панорам, якщо є -->
         </div>
-        <div class="button vr" onclick="enterVR()">Перейти в VR</div>
+        <div class="button" onclick="enterVR()">Перейти в VR</div>
         <div class="button immersive" onclick="enterImmersive()">Перейти в режим погруження</div>
     </div>
     <script>
